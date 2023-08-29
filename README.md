@@ -28,6 +28,7 @@ npx cypress open
 5. No Cypress, clique no arquivo de teste nome-do-arquivo-de-teste.spec.js para executar o teste
 
 ## Descrição do Teste
+
 O teste automatizado realiza as seguintes etapas no site da VR:
 
 1.Acessa o site www.vr.com.br.
@@ -38,9 +39,11 @@ O teste automatizado realiza as seguintes etapas no site da VR:
 O teste utiliza seletores baseados em texto e IDs para interagir com os elementos da página.
 
 ## Personalização do Teste
+
 Caso o site da VR passe por mudanças, os seletores dos elementos podem se tornar inválidos. Nesse caso, é necessário atualizar os seletores no arquivo de teste nome-do-arquivo-de-teste.spec.js.
 
 ## Considerações Finais
+
 Os testes automatizados são uma parte importante do processo de desenvolvimento para garantir a qualidade das aplicações. Este teste em particular visa garantir que a funcionalidade de exibição do mapa do Google no site da VR esteja funcionando conforme o esperado.
 
 
