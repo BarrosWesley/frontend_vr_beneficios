@@ -14,7 +14,7 @@ Certifique-se de ter as seguintes ferramentas instaladas antes de executar o tes
 1. Clone este repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
+git clone https://github.com/BarrosWesley/frontend_vr_beneficios.git
 
 2. Navegue até o diretório do projeto
 cd nome-do-repositorio
