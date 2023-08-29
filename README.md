@@ -6,35 +6,44 @@ Este repositório contém um teste automatizado criado utilizando o framework de
 
 Certifique-se de ter as seguintes ferramentas instaladas antes de executar o teste:
 
-- [Node.js](https://nodejs.org/): Certifique-se de ter o Node.js instalado na sua máquina.
-- [Cypress](https://www.cypress.io/): Instale o Cypress globalmente ou localmente no seu projeto.
+  - [Node.js](https://nodejs.org/): Certifique-se de ter o Node.js instalado na sua máquina.
+  - [Cypress](https://www.cypress.io/): Instale o Cypress globalmente ou localmente no seu projeto.
 
 ## Executando o Teste
 
-1. Clone este repositório:
+  1. Clone este repositório:
 
-```bash
-git clone https://github.com/BarrosWesley/frontend_vr_beneficios.git
+  git clone https://github.com/BarrosWesley/frontend_vr_beneficios.git
 
-2. Navegue até o diretório do projeto
-cd nome-do-repositorio
+  2. Navegue até o diretório do projeto
+  ```
+  cd nome-do-repositorio
+  ```
 
-3. Instale as dependências:
-npm install
+  4. Instale as dependências:
+```
+  npm install
+```
 
-4. Execute o Cypress:
-npx cypress open
+  5. Execute o Cypress:
+  ```
+  npx cypress open
+  ```
 
-5. No Cypress, clique no arquivo de teste nome-do-arquivo-de-teste.spec.js para executar o teste
+  7. No Cypress, clique no arquivo de teste nome-do-arquivo-de-teste.spec.js para executar o teste
 
 ## Descrição do Teste
 
+
 O teste automatizado realiza as seguintes etapas no site da VR:
 
-1.Acessa o site www.vr.com.br.
-2.Navega até a seção "Pra Você".
-3.Clica no botão "Onde usar meu cartão VR".
-4.Valida que o mapa do Google é exibido na tela.
+1.Acessa o site 
+```
+www.vr.com.br.
+```
+2. Navega até a seção "Pra Você".
+3. Clica no botão "Onde usar meu cartão VR".
+4. Valida que o mapa do Google é exibido na tela.
 
 O teste utiliza seletores baseados em texto e IDs para interagir com os elementos da página.
 
